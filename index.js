@@ -9,7 +9,7 @@ mongoose.set('strictQuery', true);
 app.use(bodyparser.json())
 // app.use(bodyparser.urlencoded)
 
-mongoose.connect("mongodb+srv://madhusmita_123:5fiVrKsOKBIGJsKe@cluster0.cpbhduk.mongodb.net/project-04", {useNewUrlParser:true} )
+mongoose.connect("mongodb+srv://lonemohsin33:Diabetes7889%40@functionup.aq5cty2.mongodb.net/project-04?retryWrites=true&w=majority", {useNewUrlParser:true} )
 .then(() => console.log("MongoDB connected.."))
 .catch(err => console.log(err))
 
